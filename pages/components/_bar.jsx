@@ -1,5 +1,13 @@
 import React from "react";
-import { BookOpenIcon } from "@heroicons/react/outline";
+import {
+  BookOpenIcon,
+  BookmarkAltIcon,
+  ClockIcon,
+  ChartBarIcon,
+  ReceiptRefundIcon,
+  UserAddIcon,
+  CogIcon,
+} from "@heroicons/react/outline";
 
 function Bar() {
   return (
@@ -9,57 +17,80 @@ function Bar() {
       </div>
       <div className="px-3 my-3 flex flex-col">
         <div className="mb-4">
-          <h3 className="text-xs font-semibold uppercase text-neutral-600">
+          <h3 className="text-xs font-thin uppercase text-neutral-600">
+            Algemeen
+          </h3>
+        </div>
+        <a
+          href=""
+          className="flex justify-start items-center hover:text-sky-700 text-neutral-700 py-1"
+        >
+          <ChartBarIcon className="w-5 h-5 mx-2" />
+          <span className="font-medium">Overzicht</span>
+        </a>
+      </div>
+      <div className="px-3 my-3 flex flex-col">
+        <div className="mb-4">
+          <h3 className="text-xs font-thin uppercase text-neutral-600">
             Resultaten
           </h3>
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 text-neutral-700"
+          className="flex justify-start items-center hover:text-sky-700 text-neutral-700 py-1"
         >
           <BookOpenIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Toetsen</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 text-neutral-700"
+          className="flex justify-start items-center hover:text-sky-700 text-neutral-700 py-1"
         >
-          <BookOpenIcon className="w-5 h-5 mx-2" />
+          <BookmarkAltIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Rapporten</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 text-neutral-700"
+          className="flex justify-start items-center hover:text-sky-700 text-neutral-700 py-1"
         >
-          <BookOpenIcon className="w-5 h-5 mx-2" />
+          <ClockIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Recent</span>
         </a>
       </div>
       <div className="px-3 my-3 flex flex-col">
         <div className="mb-4">
-          <h3 className="text-xs font-semibold uppercase text-neutral-600">
+          <h3 className="text-xs font-thin uppercase text-neutral-600">
             Leerlingencontact
           </h3>
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 text-neutral-700"
+          className="flex justify-start items-center hover:text-sky-700 text-neutral-700 py-1"
         >
-          <BookOpenIcon className="w-5 h-5 mx-2" />
+          <ReceiptRefundIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Reservatie</span>
+        </a>
+      </div>
+      <div className="px-3 my-3 flex flex-col">
+        <div className="mb-4">
+          <h3 className="text-xs font-thin uppercase text-neutral-600">
+            Instellingen
+          </h3>
+        </div>
+        <a
+          href=""
+          className="flex justify-start items-center hover:text-sky-700 text-neutral-700 py-1"
+        >
+          <CogIcon className="w-5 h-5 mx-2" />
+          <span className="font-medium">Mijn account</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 text-neutral-700"
+          className="flex justify-start items-center hover:text-sky-700 text-neutral-700 py-1"
         >
-          <BookOpenIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Overzicht</span>
+          <UserAddIcon className="w-5 h-5 mx-2" />
+          <span className="font-medium">Account toevoegen</span>
         </a>
-      </div>
-      <div>
-        <h3>Instellingen</h3>
-        <a href="">Mijn account</a>
-        <a href="">Account toevoegen</a>
       </div>
     </div>
   );
