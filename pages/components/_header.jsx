@@ -12,7 +12,7 @@ export default function Header() {
       <body>
         <header className="py-5 bg-neutral-50 border-b border-b-neutral-100">
           <nav className="text-stone-600 md:w-1/2 mx-auto flex justify-between items-center">
-            <h2 className="font-bold uppercase text-xl">Fuze</h2>
+            <h2 className="font-normal text-neutral-600 uppercase text-2xl">Fuze</h2>
             <div className="space-x-8 text-md font-semibold">
               <a href="#" className="text-sky-600">
                 Resultaten
