@@ -10,9 +10,9 @@ export default function Header() {
         <meta name="description" content="Fuze online scoreboek" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <header className="py-5 bg-neutral-50 border-b border-b-neutral-100">
+        <header className="p-5 bg-neutral-50 border-b border-b-neutral-100">
           <nav className="text-stone-600 flex justify-between items-center">
-            <button><MenuIcon className="w-6 h-6"/></button>
+            <button className="p-2 rounded-full hover:bg-neutral-200"><MenuIcon className="w-6 h-6"/></button>
             <div className="space-x-8 text-md font-semibold">
               <a href="#" className="hover:text-stone-700">
                 Resultaten
