@@ -9,14 +9,15 @@ import {
   CogIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
-import {motion} from 'framer-motion';
 
 function Bar() {
   return (
     <div className="border-r border-neutral-200 hidden md:block w-72 h-screen ">
       <div className="p-4 text-cyan-600 font-semibold text-2xl uppercase flex justify-center items-center">
-        <Image src="/assets/logo.jpg" alt="Logo" width="50" height="50" />
+        <a href="/" className="flex items-center justify-center hover:scale-103 duration-500">
+        <Image className="" src="/assets/logo.jpg" alt="Logo" width="50" height="50" />
         <h2>Fuze</h2>
+        </a>
       </div>
       <div className="my-3 flex flex-col">
         <div className="mb-4 mx-2">
