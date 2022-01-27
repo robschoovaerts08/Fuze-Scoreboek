@@ -12,7 +12,7 @@ import Image from "next/image";
 
 function Bar() {
   return (
-    <div className="border-r border-neutral-200 hidden md:block w-72 h-screen">
+    <div className="border-r border-neutral-200 hidden md:block w-72 h-screen ">
       <div className="p-4 text-cyan-600 font-semibold text-2xl uppercase flex justify-center items-center">
         <Image src="/assets/logo.jpg" alt="Logo" width="50" height="50" />
         <h2>Fuze</h2>
@@ -28,7 +28,7 @@ function Bar() {
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <ChartBarIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Overzicht</span>
+          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Overzicht</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -42,21 +42,21 @@ function Bar() {
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <ClockIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Recent</span>
+          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Recent</span>
         </a>
         <a
           href=""
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <BookOpenIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Toetsen</span>
+          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Toetsen</span>
         </a>
         <a
           href=""
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <BookmarkAltIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Rapporten</span>
+          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Rapporten</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -70,7 +70,7 @@ function Bar() {
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <ReceiptRefundIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Reservatie</span>
+          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Reservatie</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -84,14 +84,14 @@ function Bar() {
           className=" transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <CogIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Mijn account</span>
+          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Mijn account</span>
         </a>
         <a
           href=""
-          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100   flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <UserAddIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Account toevoegen</span>
+          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium ">Account toevoegen</span>
         </a>
       </div>
     </div>
