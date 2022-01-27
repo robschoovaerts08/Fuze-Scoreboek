@@ -13,16 +13,11 @@ import { motion } from "framer-motion";
 
 function Bar() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ ease: "easeOut", duration: 2 }}
-      className="border-r border-neutral-200 hidden md:block w-72 h-screen"
-    >
+    <div className="border-r border-neutral-200 hidden md:block w-72 h-screen ">
       <div className="p-4 text-cyan-600 font-semibold text-2xl uppercase flex justify-center items-center">
-        <a href="/" className="flex justify-center items-center">
-          <Image src="/assets/logo.jpg" alt="Logo" width="50" height="50" />
-          <h2>Fuze</h2>
+        <a href="/" className="flex items-center justify-center hover:scale-103 duration-500">
+        <Image className="" src="/assets/logo.jpg" alt="Logo" width="50" height="50" />
+        <h2>Fuze</h2>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -31,13 +26,13 @@ function Bar() {
             Algemeen
           </h3>
         </div>
-        <motion.a
+        <a
           href="#"
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ChartBarIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Overzicht</span>
-        </motion.a>
+          <span className="transition duration-150 py-5 flex items-center hover:translate-x-1.5 h-6 w-80 font-medium">Overzicht</span>
+        </a>
       </div>
       <div className="my-3 flex flex-col">
         <div className="mb-4 mx-2">
@@ -47,24 +42,24 @@ function Bar() {
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ClockIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Recent</span>
+          <span className="transition duration-150 hover:translate-x-1.5 h-6 w-80 flex items-center py-5 font-medium">Recent</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <BookOpenIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Toetsen</span>
+          <span className="flex items-center py-5 transition duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Toetsen</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <BookmarkAltIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Rapporten</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Rapporten</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -75,10 +70,10 @@ function Bar() {
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ReceiptRefundIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Reservatie</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Reservatie</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -89,20 +84,20 @@ function Bar() {
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className=" transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <CogIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Mijn account</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Mijn account</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100   flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <UserAddIcon className="w-5 h-5 mx-2" />
-          <span className="font-medium">Account toevoegen</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium ">Account toevoegen</span>
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
