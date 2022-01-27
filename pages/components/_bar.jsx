@@ -26,10 +26,10 @@ function Bar() {
         </div>
         <a
           href="#"
-          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ChartBarIcon className="w-5 h-5 mx-2" />
-          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Overzicht</span>
+          <span className="transition duration-150 py-5 flex items-center hover:translate-x-1.5 h-6 w-80 font-medium">Overzicht</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -40,24 +40,24 @@ function Bar() {
         </div>
         <a
           href=""
-          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ClockIcon className="w-5 h-5 mx-2" />
-          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Recent</span>
+          <span className="transition duration-150 hover:translate-x-1.5 h-6 w-80 flex items-center py-5 font-medium">Recent</span>
         </a>
         <a
           href=""
-          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <BookOpenIcon className="w-5 h-5 mx-2" />
-          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Toetsen</span>
+          <span className="flex items-center py-5 transition duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Toetsen</span>
         </a>
         <a
           href=""
-          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <BookmarkAltIcon className="w-5 h-5 mx-2" />
-          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Rapporten</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Rapporten</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -68,10 +68,10 @@ function Bar() {
         </div>
         <a
           href=""
-          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ReceiptRefundIcon className="w-5 h-5 mx-2" />
-          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Reservatie</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Reservatie</span>
         </a>
       </div>
       <div className="my-3 flex flex-col">
@@ -82,17 +82,17 @@ function Bar() {
         </div>
         <a
           href=""
-          className=" transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className=" transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <CogIcon className="w-5 h-5 mx-2" />
-          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium">Mijn account</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium">Mijn account</span>
         </a>
         <a
           href=""
           className="transition duration-100   flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <UserAddIcon className="w-5 h-5 mx-2" />
-          <span className="transition duration-150 hover:translate-x-2.5 h-6 w-80 font-medium ">Account toevoegen</span>
+          <span className="transition flex items-center py-5 duration-150 hover:translate-x-1.5 h-6 w-80 font-medium ">Account toevoegen</span>
         </a>
       </div>
     </div>
