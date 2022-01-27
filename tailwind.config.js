@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: { scale: { 103: "1.03" } },
+    fontFamily: {
+      graduate: ["'Graduate'"],
+    },
   },
   plugins: [],
 };
