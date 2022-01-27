@@ -25,7 +25,7 @@ function Bar() {
         </div>
         <a
           href="#"
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <ChartBarIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Overzicht</span>
@@ -39,21 +39,21 @@ function Bar() {
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <ClockIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Recent</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <BookOpenIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Toetsen</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <BookmarkAltIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Rapporten</span>
@@ -67,7 +67,7 @@ function Bar() {
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <ReceiptRefundIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Reservatie</span>
@@ -81,14 +81,14 @@ function Bar() {
         </div>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className=" transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <CogIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Mijn account</span>
         </a>
         <a
           href=""
-          className="flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
+          className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700 py-1.5"
         >
           <UserAddIcon className="w-5 h-5 mx-2" />
           <span className="font-medium">Account toevoegen</span>
