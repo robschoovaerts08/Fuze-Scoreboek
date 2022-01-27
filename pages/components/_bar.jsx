@@ -9,6 +9,7 @@ import {
   CogIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
+import {motion} from 'framer-motion';
 
 function Bar() {
   return (

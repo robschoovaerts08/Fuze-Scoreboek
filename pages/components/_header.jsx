@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { MenuIcon } from "@heroicons/react/outline";
 
 export default function Header() {
   return (
@@ -9,10 +10,9 @@ export default function Header() {
         <meta name="description" content="Fuze online scoreboek" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body>
         <header className="py-5 bg-neutral-50 border-b border-b-neutral-100">
-          <nav className="text-stone-600 md:w-1/2 mx-auto flex justify-between items-center">
-            <h2 className="font-normal text-neutral-600 uppercase text-2xl">Fuze</h2>
+          <nav className="text-stone-600 flex justify-between items-center">
+            <button><MenuIcon className="w-6 h-6"/></button>
             <div className="space-x-8 text-md font-semibold">
               <a href="#" className="hover:text-stone-700">
                 Resultaten
@@ -29,7 +29,6 @@ export default function Header() {
             </button>
           </nav>
         </header>
-      </body>
     </>
   );
 }
