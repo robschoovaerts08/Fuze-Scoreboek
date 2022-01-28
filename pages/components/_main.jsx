@@ -36,6 +36,18 @@ export default function Main() {
     { name: "Test Nederlands", uv: 30, pv: 4800, amt: 7800 },
     { name: "Taak Chemie", uv: 50, pv: 4800, amt: 7800 },
     { name: "Taak LO", uv: 80, pv: 3600, amt: 3600 },
+    { name: "Test wiskunde", uv: 90, pv: 2400, amt: 2400 },
+    { name: "Overhoring frans", uv: 60, pv: 4800, amt: 7800 },
+    { name: "Taak Engels", uv: 70, pv: 4800, amt: 7800 },
+    { name: "Test Nederlands", uv: 30, pv: 4800, amt: 7800 },
+    { name: "Taak Chemie", uv: 50, pv: 4800, amt: 7800 },
+    { name: "Taak LO", uv: 80, pv: 3600, amt: 3600 },
+    { name: "Test wiskunde", uv: 90, pv: 2400, amt: 2400 },
+    { name: "Overhoring frans", uv: 60, pv: 4800, amt: 7800 },
+    { name: "Taak Engels", uv: 70, pv: 4800, amt: 7800 },
+    { name: "Test Nederlands", uv: 30, pv: 4800, amt: 7800 },
+    { name: "Taak Chemie", uv: 50, pv: 4800, amt: 7800 },
+    { name: "Taak LO", uv: 80, pv: 3600, amt: 3600 },
   ];
 
   const data01 = [

@@ -21,6 +21,7 @@ import {
   HomeIcon,
   QuestionMarkCircleIcon,
 } from "@heroicons/react/solid";
+
 const callsToAction = [
   { name: "Fuze Home", href: "#", icon: HomeIcon },
   { name: "FAQ", href: "#", icon: QuestionMarkCircleIcon },
@@ -74,7 +75,8 @@ export default function Links() {
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                           <a
-                            href="#"
+                            href="https://campussintursula.smartschool.be/"
+                            target="_blank"
                             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                           >
                             <Image
@@ -94,7 +96,8 @@ export default function Links() {
                             </div>
                           </a>
                           <a
-                            href="#"
+                            href="https://www.pelckmansportaal.be/#/aanmelden"
+                            target="_blank"
                             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                           >
                             <Image
@@ -114,7 +117,8 @@ export default function Links() {
                             </div>
                           </a>
                           <a
-                            href="#"
+                            href="https://www.diddit.be/"
+                            target="_blank"
                             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                           >
                             <Image
@@ -134,7 +138,8 @@ export default function Links() {
                             </div>
                           </a>
                           <a
-                            href="#"
+                            target="_blank"
+                            href="https://www.polpo.be/leerling/identificatie/start"
                             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                           >
                             <Image
