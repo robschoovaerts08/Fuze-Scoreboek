@@ -14,6 +14,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 function Bar() {
+  const [menu, setMenu] = useState(false);
+
+  function toggleMenu() {
+    setMenu(!menu);
+  }
+
   return (
     <div className="border-r border-neutral-200 hidden md:block w-72 h-screen ">
       <div className="p-4 text-sky-600 font-semibold text-2xl uppercase flex justify-between items-center">

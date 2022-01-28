@@ -8,7 +8,7 @@ import Main from "./components/_main";
 
 export default function Home() {
   return (
-    <div className="flex">
+    <div className="flex overflow-x-hidden">
       <Bar />
       <div className="w-full">
         <Header />
