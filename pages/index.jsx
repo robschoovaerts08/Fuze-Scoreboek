@@ -8,7 +8,7 @@ import Main from "./components/_main";
 
 export default function Home() {
   return (
-    <div className="flex overflow-x-hidden">
+    <div className="flex selection:bg-sky-600 selection:text-white">
       <Bar />
       <div className="w-full">
         <Header />

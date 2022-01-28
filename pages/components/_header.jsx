@@ -23,7 +23,7 @@ export default function Header() {
       </Head>
       <header className="px-5 py-3 bg-white border-b border-neutral-200">
         <nav className="text-stone-600 flex justify-between items-center">
-          <div class="relative text-gray-600 focus-within:text-gray-400 rounded-3xl border border-transparent focus-within:border-sky-600">
+          <div class="relative focus-within:text-stone-400 text-gray-600 rounded-3xl border border-transparent focus-within:border-sky-600">
             <span class="absolute inset-y-0 left-0 flex items-center pl-2">
               <button
                 type="submit"
@@ -35,7 +35,7 @@ export default function Header() {
             <input
               type="search"
               name="q"
-              class="py-2 appearance-none text-xs font-medium text-stone-700 bg-neutral-100 rounded-3xl px-10 focus:outline-none border border-neutral-200"
+              class="py-2 focus:text-stone-500 appearance-none text-xs font-medium text-stone-600 bg-neutral-100 rounded-3xl px-10 focus:outline-none border border-neutral-200"
               placeholder="Zoeken..."
               autocomplete="off"
             />
