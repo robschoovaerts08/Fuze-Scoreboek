@@ -24,7 +24,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-export default function Main() {
+export default function Dashboard() {
   const [opacity, setOpacity] = useState({
     uv: 1,
     pv: 1,

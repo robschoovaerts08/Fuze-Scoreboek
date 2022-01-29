@@ -4,7 +4,7 @@ import Image from "next/image";
 // Components
 import Header from "./components/_header";
 import Bar from "./components/_bar";
-import Dashboard from "./components/_dashboard";
+import Recent from "./components/_recent";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Bar />
       <div className="w-full">
         <Header />
-        <Dashboard />
+        <Recent />
       </div>
     </div>
   );
