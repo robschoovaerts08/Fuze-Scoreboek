@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Links from "./_links";
 import {
   SearchIcon,
   UserIcon,
@@ -41,6 +42,7 @@ export default function Header() {
             />
           </div>
           <div className="flex justify-center items-center space-x-3">
+            <Links />
             <button className="flex items-center justify-center">
               <Image
                 src="/assets/united-states.png"
@@ -48,9 +50,6 @@ export default function Header() {
                 height="28"
                 alt="lang"
               />
-            </button>
-            <button className="p-2 border-transparent border hover:border-neutral-200 text-white font-semibold text-sm hover:bg-neutral-200 rounded-full">
-              <CubeIcon className="w-5 h-5 text-neutral-600" />
             </button>
             <button className="p-2 bg-neutral-100 border-transparent border border-neutral-300 rounded-full text-white font-semibold text-sm">
               <UserIcon className="w-5 h-5 text-neutral-400" />

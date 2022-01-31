@@ -14,6 +14,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 function Bar() {
+  const [menu, setMenu] = useState(false);
+
+  function toggleMenu() {
+    setMenu(!menu);
+  }
+
   return (
     <div className="border-r border-neutral-200 hidden md:block w-72 h-screen ">
       <div className="p-4 text-sky-600 font-semibold text-2xl uppercase flex justify-between items-center">
@@ -38,7 +44,7 @@ function Bar() {
           </h3>
         </div>
         <a
-          href="#"
+          href="/"
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ChartBarIcon className="w-5 h-5 mx-2" />
@@ -54,7 +60,7 @@ function Bar() {
           </h3>
         </div>
         <a
-          href=""
+          href="/recent"
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ClockIcon className="w-5 h-5 mx-2" />
@@ -63,7 +69,7 @@ function Bar() {
           </span>
         </a>
         <a
-          href=""
+          href="/tests"
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <BookOpenIcon className="w-5 h-5 mx-2" />
@@ -72,7 +78,7 @@ function Bar() {
           </span>
         </a>
         <a
-          href=""
+          href="/rapport"
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <BookmarkAltIcon className="w-5 h-5 mx-2" />
@@ -88,7 +94,7 @@ function Bar() {
           </h3>
         </div>
         <a
-          href="#"
+          href="/reservatie"
           className="transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <ReceiptRefundIcon className="w-5 h-5 mx-2" />
@@ -104,7 +110,7 @@ function Bar() {
           </h3>
         </div>
         <a
-          href="#"
+          href="/account"
           className=" transition duration-100 flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <CogIcon className="w-5 h-5 mx-2" />
@@ -113,7 +119,7 @@ function Bar() {
           </span>
         </a>
         <a
-          href="#"
+          href="/nieuw-account"
           className="transition duration-100   flex justify-start items-center hover:text-sky-700 hover:bg-neutral-50 border-l-[3px] border-l-transparent hover:border-l-sky-600 text-neutral-700"
         >
           <UserAddIcon className="w-5 h-5 mx-2" />
